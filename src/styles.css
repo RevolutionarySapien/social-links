@@ -1,1 +1,38 @@
 /* You can add global styles to this file, and also import other style files */
+
+/* ## Colors */
+
+/* ### Primary */
+
+* {
+  margin: 0;
+}
+
+body {
+  font-family: "specimen", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: var(--Off-Black);
+}
+
+:root {
+  --Green: hsl(75, 94%, 57%);
+
+  /* ### Neutral */
+
+  --White: hsl(0, 0%, 100%);
+  --Grey: hsl(0, 0%, 20%);
+  --Dark-Grey: hsl(0, 0%, 12%);
+  --Off-Black: hsl(0, 0%, 8%);
+
+  /* - Family: [Inter](https://fonts.google.com/specimen/Inter)
+    - Weights: 400, 600, 700 */
+}
+
+@media (max-width: 400px) {
+  * {
+    font-size: 12px;
+  }
+}

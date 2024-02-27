@@ -1,0 +1,71 @@
+.container {
+  width: 19rem;
+  height: auto;
+  background-color: aqua;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+  background-color: var(--Dark-Grey);
+  border-radius: 15px;
+}
+
+img {
+  justify-self: center;
+  border-radius: 50%;
+  width: 6rem;
+  height: 6rem;
+  background-image: url("src/assets/images/avatar-jessica.jpeg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 2rem;
+  margin-top: 1rem;
+}
+
+h1 {
+  color: var(--White);
+  font-weight: 500;
+  font-size: 24px;
+}
+
+h3 {
+  margin-top: 0.5rem;
+  color: var(--Green);
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.profile-bio p {
+  padding: 1.5rem 0;
+  color: var(--White);
+  font-size: 14px;
+}
+
+.profile-bio {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.profile-links a {
+  letter-spacing: 0.5px;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 14px;
+  color: var(--White);
+  width: 100%;
+  background-color: var(--Grey);
+  height: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.profile-links {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
